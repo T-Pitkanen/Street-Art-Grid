@@ -125,6 +125,14 @@ a {
 	padding-top: 1vh;
 }
 
+.social{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 0.5rem;
+}
+
 .to-top {
 	background-color: black;
 	font-family: 'Big Shoulders Text';
@@ -135,11 +143,15 @@ a {
 	padding-top: 1vh;
 }
 
-/****************************RESPONSIVE***********************/
+/**************************** RESPONSIVE MOBILE ***********************/
 
 @media only screen and (max-width: 767px) {
 	h2 {
 		font-size: 1rem;
+	}
+
+	.display{
+		font-size: 2rem;
 	}
 
 	#container-top {
@@ -159,6 +171,7 @@ a {
 	.container-article {
 		grid-template-columns: 3fr 9fr;
 		font-size: 0.9rem;
+		row-gap: 1.5rem;
 	}
 
 	.container-collage {
@@ -168,6 +181,10 @@ a {
 		grid-template-areas:
 			'a b'
 			'c d';
+	}
+
+	.colophon{
+		padding-left: 0px;
 	}
 
 	.item1 {

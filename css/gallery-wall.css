@@ -74,6 +74,17 @@ a {
 	grid-row: span 2;
 }
 
+.social{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+
+
+
 /********************** FOOTER *******************/
 
 #container-footer {
@@ -146,6 +157,10 @@ a {
 
 	.to-top {
 		font-size: 5vw;
+	}
+
+	.colophon{
+		padding-left: 0px;
 	}
 }
 
